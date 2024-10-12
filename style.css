@@ -1,0 +1,178 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ##### header-content ##### */
+.headers {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1e6f35;
+    color: #F9FAF8;
+    flex-direction: column;
+    justify-self: space-between;
+    gap: 110px;
+    padding: 20px 220px 130px 220px;
+}
+
+.top-header,
+.bottom-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.top-header {
+    font-size: 18px;
+    gap: 20px;
+}
+
+.bottom-header {
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.home-button {
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.bottom-header-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 18px;
+    width: 400px;
+    gap: 16px;
+    flex-grow: 1;
+}
+
+.sign-up {
+    background-color: #dfe1e5;
+    border: none;
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(7, 2, 2);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.map {
+    width: 550px;
+}
+
+/* ###### review-content ##### */
+.reviews {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #f2f7f3;
+    font-size: 36px;
+    font-weight: 150;
+    font-style: italic;
+    padding: 130px 330px 130px 330px;
+}
+
+.commentor {
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ###### copyright ##### */
+.contact {
+    display: flex;
+    justify-content: center;
+    padding: 100px 220px 100px 220px;
+    background-color: white;
+}
+
+.contact-screen {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    background-color: #1e6f35;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+
+.contact-screen-left {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-text1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#contact-text2 {
+    font-size: 18px;
+}
+
+.contact-screen button {
+    background-color: #edeef1;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    width: 130px;
+    height: 35px;
+    font-size: 18px;
+    color: rgb(10, 5, 5);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* ###### copyright ##### */
+.copyright {
+    background-color: #1e6f35;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.copyright a {
+    color: #E5E7EB;
+}
+
+/* Basic styling for the button */
+  .sign-up {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Media query for responsiveness */
+  @media screen and (max-width: 600px) {
+    .sign-up {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+
+
